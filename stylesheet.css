@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(234, 234, 234);
+}
+.header {
+  background-color: rgb(206, 64, 64);
+  box-shadow: 1px 5px 5px -3px #000000;
+  margin: 0%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 5vh;
+  font-weight: bold;
+  color: white;
+  padding-left: 10px;
+}
+
+.add {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 5px;
+}
+
+button {
+  padding: 20px;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 3vh;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.formpopup {
+  display: none;
+  width: 30%;
+  background-color:rgb(206, 64, 64);
+  margin-top: 1%;
+  margin-left: 5px;
+
+
+}
+form {
+  display: flex;
+  flex-direction:column;
+  font-family: 'Roboto';
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  
+}
+.radiocss {
+  display: flex;
+  flex-direction: row;
+}
+.addbook {
+  background-color: rgb(91, 212, 91);
+  border-style: inset;
+}
+.addbook:hover {
+  background-color: rgb(206, 64, 64);
+}
+.closebook {
+  background-color: rgb(206, 168, 64);
+  border-style: inset;
+}
+.closebook:hover {
+  background-color: rgb(91, 188, 212);;
+}
