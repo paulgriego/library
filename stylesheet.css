@@ -7,7 +7,7 @@ body {
   background-color: rgb(234, 234, 234);
 }
 .header {
-  background-color: rgb(206, 64, 64);
+  background-color: rgb(64, 140, 206);
   box-shadow: 1px 5px 5px -3px #000000;
   margin: 0%;
   height: 15vh;
@@ -28,6 +28,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  justify-content: center;
   padding-top: 50px;
   padding-left: 5px;
 }
@@ -42,11 +43,12 @@ button {
 }
 .formpopup {
   display: none;
+  position: absolute;
   width: 30%;
-  background-color:rgb(206, 64, 64);
+  background-color:rgb(64, 140, 206);
   margin-top: 1%;
   margin-left: 5px;
-
+  margin-left: 35%;
 
 }
 form {
@@ -55,6 +57,7 @@ form {
   font-family: 'Roboto';
   color: white;
   border: 1px solid rgb(0, 0, 0);
+  box-shadow: 5px 5px 35px 5px #000000;
   
 }
 .radiocss {
@@ -75,3 +78,4 @@ form {
 .closebook:hover {
   background-color: rgb(91, 188, 212);;
 }
+

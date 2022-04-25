@@ -7,7 +7,7 @@ function closeForm() {
 
 
 
-let myLibrary = [];
+
 
 function book(title, author, pages,read) {
   this.title = title
@@ -17,8 +17,10 @@ function book(title, author, pages,read) {
 
 }
 
-// function addBooktoLibrary() {
-// }
+ function addBooktoLibrary() {
+}
 
 const HarryPotter = new book("Harry Potter", "JK Rowlings", "393", "Yes");
-console.log(HarryPotter.info());
+
+
+let myLibrary = [HarryPotter];
